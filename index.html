@@ -382,16 +382,31 @@
       </section>
     </footer>
 
-    <div class="backdrop is-hidden" data-modal>
+ <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button type="button" class="modal-close-btn" data-modal-close>
           <svg class="modal-close-btn-icon" width="8px" height="8px">
             <use href="./img/icons.svg#icon-close-back"></use>
           </svg>
         </button>
+        <section class="reg_sec">
+          <h3 class="modal_tit">
+            Leave your contacts and we will call you back
+          </h3>
+          <section class="text-input">
+            <form action="/action_page.php">
+              <label class="text_inp" for="name">Name</label>
+              <input type="text" id="name" name="name" /><br /><br />
+              <label class="text_inp" for="tel">Phone</label>
+              <input type="number" id="phone" name="phone" /><br /><br />
+              <label class="text_inp" for="mailto">Email</label>
+              <input type="text" id="email" name="email" /><br /><br />
+              <input type="submit" value="Submit" />
+            </form>
+          </section>
+        </section>
       </div>
     </div>
-
     <script src="./js/modal.js"></script>
   </body>
 </html>
