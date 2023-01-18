@@ -394,14 +394,37 @@
           <h3 class="modal_tit">
             Leave your contacts and we will call you back
           </h3>
-          <section class="text-input">
-            <form action="/action_page.php">
-              <label class="text_inp" for="name">Name</label>
-              <input type="text" id="name" name="name" /><br /><br />
-              <label class="text_inp" for="tel">Phone</label>
-              <input type="number" id="phone" name="phone" /><br /><br />
-              <label class="text_inp" for="mailto">Email</label>
-              <input type="text" id="email" name="email" /><br /><br />
+          <section>
+            <form>
+              <div class="text-input">
+                <label class="text_inp" for="name">Name</label>
+                <span>
+                  <svg class="input-icon" width="13px" height="13px">
+                  <use href="./img/icons.svg#icon-tel"></use>
+                </svg>
+              </span>
+                <input class="text" type="text" id="name" name="name"><br/><br />
+
+                <label class="text_inp" for="tel">Phone</label>
+              <span>
+                  <svg class="input-icon2" width="13px" height="13px">
+                  <use href="./img/icons.svg#icon-mail"></use>
+                </svg>
+              </span>
+                <input class="text" type="number" id="phone" name="phone" /><br /><br />
+
+                <label class="text_inp" for="mailto">Email</label>
+              <span>
+                  <svg class="input-icon3" width="13px" height="13px">
+                  <use href="./img/icons.svg#icon-person"></use>
+                </svg>
+              </span>
+                <input class="text" type="text" id="email" name="email" /><br /><br />
+
+                <label class="text_inp" for="text">Comment</label>
+
+                <input class="text-comment" type="text" id="comment" name="comment" /><br /><br />
+              </div>
               <input type="submit" value="Submit" />
             </form>
           </section>
