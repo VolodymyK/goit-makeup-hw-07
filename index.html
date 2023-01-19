@@ -408,9 +408,9 @@
             <use href="./img/icons.svg#icon-close-back"></use>
           </svg>
         </button>
-        <section class="reg_sec">
+        <div class="reg_sec">
           <p class="modal_tit">Leave your contacts and we will call you back</p>
-          <section>
+          <div>
             <form>
               <div class="text-input">
                 <label class="text_inp" for="name">Name</label>
@@ -424,7 +424,8 @@
                   type="text"
                   id="name"
                   name="name"
-                  placeholder=""
+                  placeholder="Full Name"
+                  required
                 /><br /><br />
 
                 <label class="text_inp" for="tel">Phone</label>
@@ -439,6 +440,7 @@
                   id="phone"
                   name="phone"
                   placeholder="(000)-000-00-00"
+                  required
                 /><br /><br />
 
                 <label class="text_inp" for="mailto">Email</label>
@@ -452,6 +454,7 @@
                   type="text"
                   id="email"
                   name="email"
+                  required
                   placeholder="example@gmail.com"
                 /><br /><br />
 
@@ -466,8 +469,8 @@
               </div>
               <button type="submit" class="modal-form-btn-submit">Send</button>
             </form>
-          </section>
-        </section>
+          </div>
+        </div>
       </div>
     </div>
     <script src="./js/modal.js"></script>
