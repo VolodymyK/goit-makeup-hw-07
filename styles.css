@@ -663,7 +663,7 @@ height: 120px;
 .vector-icon:focus{
     fill: #4D5AE5;
 }
-textarea:focus, input:focus .vector-icon{
+textarea:focus, input:focus{
     outline: 0;
     border: 1px solid #4D5AE5;
 }
