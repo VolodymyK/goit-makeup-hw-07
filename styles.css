@@ -1037,7 +1037,7 @@ color: #FFFFFF;
 
 .modal-form-check:checked + .modal-form-check-description::before {
   background-color: var(--hover-button);
-  background-image: url(../images/checkbox.svg);
+  background-image: url(../img/checkbox.svg);
   background-repeat: no-repeat;
   background-position: center;
 }
@@ -1050,7 +1050,6 @@ color: #FFFFFF;
   line-height: 1.33;
   letter-spacing: 0.04em;
   color: var(--user-policy);
-  margin-bottom: 24px;
 }
 
 .modal-form-label-textarea {
