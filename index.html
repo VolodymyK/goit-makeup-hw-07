@@ -398,6 +398,32 @@
             </li>
           </ul>
         </div>
+        <div style="margin-left: 80px;">
+          <h3 class="footer_tit3">Subscribe</h3>
+          <div class="inp-btn">
+            <form class="subscribe-footer-form">
+              <input
+                class="subscribe-footer-input"
+                type="email"
+                id="email"
+                name="email"
+                required
+                placeholder="Email"
+              /><br /><br />
+            </form>
+              <button type="submit" class="subscribe-footer-btn">
+                Subscribe
+                <svg
+                  class="subscribe-footer-media-icon"
+                  width="24px"
+                  height="24px"
+                >
+                  <use href="./img/sub.svg"></use>
+                </svg>
+              </button>
+            </form>
+          </div>
+        </div>
       </section>
     </footer>
 
@@ -416,40 +442,47 @@
                 >Name
                 <span class="modal-form-input-wrapper">
                   <svg class="modal-form-icon" width="13px" height="13px">
-                    <use href="./img/icons.svg#icon-tel"></use>
+                    <use href="./img/icons.svg#icon-person"></use>
                   </svg>
                   <input
-                    class="text input-info"
+                    class="text input-info modal-form-input"
                     type="text"
                     id="name"
                     name="name"
                     placeholder="Full Name"
-                    required /><br /><br
+                    required
+                    pattern="^[a-zA-Zа-яА-Я]+$"
+                    minlength="2" /><br /><br
                 /></span>
               </label>
               <label class="text_inp" for="tel"
                 >Phone
                 <span class="modal-form-input-wrapper">
                   <svg class="modal-form-icon" width="13px" height="13px">
-                    <use href="./img/icons.svg#icon-mail"></use>
+                    <use
+                      class="modal-icon"
+                      href="./img/icons.svg#icon-tel"
+                    ></use>
                   </svg>
                   <input
-                    class="text input-info"
+                    class="text input-info modal-form-input"
                     type="tel"
                     id="phone"
                     name="phone"
                     placeholder="(000)-000-00-00"
-                    required /><br /><br
+                    required
+                    pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+                    title="xxx-xxx-xx-xx" /><br /><br
                 /></span>
               </label>
               <label class="text_inp" for="mailto"
                 >Email
                 <span class="modal-form-input-wrapper">
                   <svg class="modal-form-icon" width="13px" height="13px">
-                    <use href="./img/icons.svg#icon-person"></use>
+                    <use href="./img/icons.svg#icon-mail"></use>
                   </svg>
                   <input
-                    class="text input-info"
+                    class="text input-info modal-form-input"
                     type="email"
                     id="email"
                     name="email"
@@ -468,11 +501,17 @@
               <input
                 type="checkbox"
                 name="user-policy"
-                class="modal-checkbox"
+                class="modal-form-check hidden-title"
                 id="user-policy"
               />
-              <label for="user-policy" class="text_inp policy">
-                I accept the terms and conditions of the<a href="policy.html">
+              <label
+                for="user-policy"
+                class="text-for-policy modal-form-check-description"
+              >
+                I accept the terms and conditions of the&nbsp;<a
+                  style="color: #4d5ae5"
+                  href=""
+                >
                   Privacy Policy
                 </a>
               </label>
