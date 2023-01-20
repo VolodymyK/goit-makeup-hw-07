@@ -305,7 +305,6 @@ color: #434455;
 }
 .list-comp{
     display: flex;
-    justify-content: center;
     gap: 24px;
 }
 .comp-item{
@@ -482,8 +481,6 @@ height: 40px;
 .sec3{
     padding-top: 120px;
     padding-bottom: 120px;
-    padding-left: 156px;
-    padding-right: 156px;
 }
 .footer_tit2{
     font-family: 'Roboto';
@@ -811,6 +808,7 @@ color: #757575;
 .subscribe-footer-input {
   width: 264px;
   height: 40px;
+  padding-left: 16px;
   margin-right: 24px;
   color: white;
   background-color: transparent;
