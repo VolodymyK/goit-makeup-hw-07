@@ -194,6 +194,7 @@ letter-spacing: 0.02em;
     background-repeat: no-repeat;
     padding-top: 192px;
     padding-bottom: 192px;
+    height: auto;
     max-width: 1600px;
     margin: 0 auto; 
     background-color: #2E2F42;
