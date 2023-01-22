@@ -1,7 +1,13 @@
 h1, h2, h3, h4, h5, h6, p{
     margin: 0;
 }
-
+.hi{
+  font-family: 'Roboto';
+  font-weight: 400;
+  width: 1000px;
+margin-left: auto;
+margin-right: auto;
+}
 :root {
   --color-primary: #434455;
   --second-color: #2e2f42;
