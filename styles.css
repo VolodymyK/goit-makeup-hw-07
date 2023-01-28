@@ -1096,3 +1096,22 @@ color: #FFFFFF;
 @media (min-width:768px) and (max-width:1200px){
 
 }
+@media screen and (min-width: 480px) {
+    .conteiner {
+        width: 426px;
+        margin-left: auto;
+  margin-right: auto;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .conteiner {
+        width: 766px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .conteiner {
+        width: 1158px;
+    }
+}
