@@ -3,7 +3,7 @@ h1, h2, h3, h4, h5, h6, p{
 }
 html{
   box-sizing: border-box;
-  width: auto;
+  max-width: 100%;
 }
 .hi{
   font-family: 'Roboto';
@@ -149,6 +149,7 @@ margin-bottom: 48px;
 margin-right: auto;
 margin-left: auto;
 width: 500px;
+display: inline-block;
 font-family: 'Roboto';
 font-style: normal;
 font-weight: 600;
@@ -221,8 +222,8 @@ letter-spacing: 0.02em;
     padding-top: 192px;
     padding-bottom: 192px;
     height: auto;
+    max-width: 100%;
     margin: 0 auto; 
-    background-color: #2E2F42;
 }
 .feacher-item{
     width: 264px;
@@ -1091,7 +1092,32 @@ color: #FFFFFF;
 }
 
 @media (min-width:320px) and (max-width: 480px){
-  
+  .title1{
+    background-image: url(img/Dark-bg-mobile.png), url(img/fon-picture-mobile.png);
+    background-position: center;
+    background-size: color;
+    background-repeat: no-repeat;
+    padding-top: 192px;
+    padding-bottom: 192px;
+    margin: 0 auto; 
+    max-width: 100%;
+
+}
+.title{
+align-self: center;
+margin-bottom: 48px;
+margin-right: auto;
+margin-left: auto;
+width: 317px;
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 600;
+font-size: 56px;
+line-height: 60px;
+color: #FFFFFF;
+text-align: center;
+letter-spacing: 0.02em;
+}
 }
 @media (min-width:768px) and (max-width:1200px){
 
